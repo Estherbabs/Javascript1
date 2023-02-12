@@ -34,31 +34,45 @@ console.log(studentMarks[0][0])
 //for in loops//
 //higher other functions//
 
-//for loops//
+//for loops- initialization, condition and implementation// 
 const n = 5
-for (let i = 1; i <= 0; i++) {
+for (let index = 1; index <= 5; index++) {
     
   console.log("Hello World");  
 }
 
-//while loop//
-let index = 19
-while (index > 0) {
-    console.log(index,"$")  
-    index-=2
-}
+// //while loop//
+// let index = 19
+// while (index > 0) {
+//     console.log(index,"$")  
+//     index-=2
+// }
 
-
-for (let index = 12; index <= 24; index++) {
-  console.log(index);
+// // comment//
+// for (let index = 12; index <= 24; index++) {
+//   console.log(index);
   
-}
+// }
 
-const buildings = [1, 44, 12, 22, 89];
-const sum = 0;
 
-for (let index = 0; index < buildings.length; index++) {
-  sum = sum + buildings[index];
+// const buildings = [1, 44, 12, 22, 89];
+// let sum = 0;
+
+// for (let index = 0; index < buildings.length; index++) {
+//   sum = sum + buildings[index];
   
 }
 console.log("The sum is: " + sum);
+
+const buildings = [1, 44, 12, 22, 89];
+
+for (let index = 0; index <= buildings.length; index++) {
+  console.log = (index);
+  
+}
+
+// assignment- sorting and max / min, mapping using for loop, filtering using for loop//
+
+m = 1
+
+
