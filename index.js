@@ -61,7 +61,7 @@ for (let index = 1; index <= 5; index++) {
 // for (let index = 0; index < buildings.length; index++) {
 //   sum = sum + buildings[index];
   
-}
+
 console.log("The sum is: " + sum);
 
 const buildings = [1, 44, 12, 22, 89];
@@ -75,4 +75,12 @@ for (let index = 0; index <= buildings.length; index++) {
 
 m = 1
 
+//sorting//
+const buildings = [1, 44, 12, 22, 89];
+buildings.sort(function(a, b) {return b-a});
 
+//max//
+let m = Math.max(5, 10)
+
+//min//
+let a = Math.min(6, 3)
