@@ -34,12 +34,12 @@ console.log(studentMarks[0][0])
 //for in loops//
 //higher other functions//
 
-//for loops- initialization, condition and implementation// 
-const n = 5
-for (let index = 1; index <= 5; index++) {
+// //for loops- initialization, condition and implementation// 
+// const n = 5
+// for (let index = 1; index <= 5; index++) {
     
-  console.log("Hello World");  
-}
+//   console.log("Hello World");  
+// }
 
 // //while loop//
 // let index = 19
@@ -62,25 +62,44 @@ for (let index = 1; index <= 5; index++) {
 //   sum = sum + buildings[index];
   
 
-console.log("The sum is: " + sum);
+// console.log("The sum is: " + sum);
 
 const buildings = [1, 44, 12, 22, 89];
 
 for (let index = 0; index <= buildings.length; index++) {
-  console.log = (index);
+  console.log(index);
   
 }
+
+
 
 // assignment- sorting and max / min, mapping using for loop, filtering using for loop//
 
 m = 1
 
 //sorting//
-const buildings = [1, 44, 12, 22, 89];
-buildings.sort(function(a, b) {return b-a});
 
-//max//
-let m = Math.max(5, 10)
 
-//min//
-let a = Math.min(6, 3)
+// //max//
+// let m = Math.max(5, 10)
+
+// //min//
+// let b = Math.min(6, 3)
+
+const productNos = [2, 4, 7, 8, 19]
+let newproductNos = []
+
+for (let index = 0; index < productNos.length; index++) {
+  newproductNos.push("mygrade"+ productNos[index])
+
+}
+console.log(newproductNos);
+
+const fruits = ["banana", "orange", "mango", "kiwi", "agbalumo", "cherry"]
+let fruitsChange = []
+
+for (let index = 0; index < fruits.length; index++) {
+  fruitsChange.push(true + fruits[index])
+  
+}
+console.log(fruitsChange);
