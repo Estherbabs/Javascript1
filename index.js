@@ -103,3 +103,31 @@ for (let index = 0; index < fruits.length; index++) {
   
 }
 console.log(fruitsChange);
+
+//reduction- Accumulation: This process is all about taking a list of item and reduce it to one value
+//
+
+const Num = [
+  {name: "Ola", Budget: 8000}, 
+  {name: "Nath", Budget: 6000},
+  {name: "Esther", Budget: 3000},
+  {name: "Ola", Budget: 300},
+  {name: "Nath", Budget: 200},
+  {name: "Esther", Budget: 100},
+]
+
+const sumBudget = Num.reduce((prev, current)=>{
+  return prev + current.Budget
+}, 0)
+
+console.log(sumBudget)
+
+//Reduction (Average)//
+
+const numSum = Num.reduce((prev, current)=>{
+  return prev + current
+}, 0)
+
+console.log(numSum)
+
+// try to use filter and reduce to get the budget of Ola //
